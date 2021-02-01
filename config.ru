@@ -1,7 +1,7 @@
-require 'bundler'
+require "bundler"
 Bundler.require
 
 $:.unshift File.expand_path("./../lib", __FILE__)
-require 'controller'
+require "controller"
 run ApplicationController
 # run Gossip
