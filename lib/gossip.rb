@@ -1,5 +1,6 @@
 require 'csv'
 
+#la partie est la pour mettre du contenu dans un CSV
 class Gossip
   attr_accessor :author, :content
 

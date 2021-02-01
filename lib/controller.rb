@@ -1,5 +1,7 @@
 require "gossip"
 
+#cette partie sers à controler elle vas chercher les ficher à afficher pour l'utilisateur ou les action à faire comme mettre un contenu dans un CSV
+
 class ApplicationController < Sinatra::Base
   get "/" do
     erb :index
@@ -13,4 +15,3 @@ class ApplicationController < Sinatra::Base
     redirect '/'
   end
 end
-
